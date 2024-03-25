@@ -192,12 +192,12 @@ namespace oop15
                 {
                     if (i >= 0)
                     {
-                        label_ans_6.Text += (Math.Round(i * _first_num * _first_num,4)) + "; ";
+                        consistency += (Math.Round(i * _first_num * _first_num,4)) + "; ";
 
                     }
                     else
                     {
-                        label_ans_6.Text += (Math.Round( i * _last_num * _last_num, 4)) + "; ";
+                        consistency += (Math.Round( i * _last_num * _last_num, 4)) + "; ";
                     }
                 }
                 label_ans_6.Text = consistency;
