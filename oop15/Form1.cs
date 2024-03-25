@@ -190,7 +190,6 @@ namespace oop15
 
                 for (double i = _first_num; i <= _last_num; i = i + _step)//цикл для обрахування
                 {
-                    Console.WriteLine(i);
                     if (i >= 0)
                     {
                         label_ans_6.Text += (Math.Round(i * _first_num * _first_num,4)) + "; ";
