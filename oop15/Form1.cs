@@ -218,7 +218,7 @@ namespace oop15
             {
                 label_ans_7.Text = textBox7_1.Text.Replace(textBox7_2.Text, textBox7_3.Text);
             }
-            catch (FormatException)
+            catch (Exception)
             {
                 label_ans_7.Text = "Bad index";
                 return;
